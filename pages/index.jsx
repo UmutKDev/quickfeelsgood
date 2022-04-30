@@ -32,7 +32,8 @@ class Index extends React.Component {
           <h1 className='animate-text font-mono text-4xl tracking-[1.8229166666666667vw] text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-green-500 to-blue-500'>Quick feels good</h1>
         </div>
         <div>
-          <Image src={this.state.feels} alt='peg' width={429} height={369} draggable={false} onClick={this.onClick} />
+          <div style={{backgroundImage: `url(${this.state.feels})`, backgroundClip: "border-box", backgroundSize: "cover", width: 429, height: 369}} onClick={this.onClick}></div>
+          {/* <Image src={this.state.feels} alt='peg' width={429} height={369} draggable={false} onClick={this.onClick} /> */}
         </div>
         <div>
           <h2 className='font-mono text-2xl tracking-[1.8229166666666667vw] dark:text-white text-black'>
