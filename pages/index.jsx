@@ -41,7 +41,7 @@ class Index extends React.Component {
           </h2>
         </div>
         <footer className='flex items-center justify-center w-full'>
-          <a href='https://www.umutk.codes' className='dark:text-white text-black border-2 rounded-md p-1 border-sky-500 hover:border-sky-600 transition delay-100 ease-in-out'>Umut K.</a>
+          <a href='https://www.umutk.me' className='dark:text-white text-black border-2 rounded-md p-1 border-sky-500 hover:border-sky-600 transition delay-100 ease-in-out'>Umut K.</a>
         </footer>
       </div>
     );
